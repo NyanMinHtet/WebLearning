@@ -1,0 +1,80 @@
+Webdesign
+
+- Create Folders for (css - CSS, js - javascript, images, others)
+
+Heading and Paragraph
+- ht (ctrl + space)
+- lorem (ctrl + space) (short paragraph)
+- <elementname align=""> (Justify,Center,Left,Right)
+- <br> -new line
+- &nbsp; -multiple spaces
+- <hr> -horizontal line (color="",width="%",align="",size="")
+
+For bold
+- <b> -only bold
+- <strong> -important text
+For Italic
+- <i> -italic
+- <em> -emphasise text
+For underline
+- <u> -underline
+- <ins> -insert tag
+For Straight Through
+- <s> -Straightline
+- <del> -delete tag
+For scripting test
+- <sub> 
+
+Colors
+- Color = "red","green",etc.
+- RGBA = (0-255 , 0-255 , 0-255)
+
+<title> - title
+<body> - pane
+<head> - meta information
+<h1> - heading --> h1 to h6 (font size large to small)
+<p1> - paragraph
+
+<tagname> Content here .... </tagname>
+* html မှာ Enter အလုပ်မလုပ်ဘူး
+
+CSS (Design)
+~ Inline - style="css feature values" (eg. style="color:red;font-size:30px;..."
+(only one line)
+~ Internal
+(edit in <head> style)
+~ External
+
+CSS selector
+id - unique (only one) usage -> #idName
+class - group (multiple) usage -> .className
+
+CSS Border (top,buttom,left,right)
+- style size color
+
+CSS Margin (top,buttom,left,right) -far from margin
+- 20px 10px 20px 10px
+CSS Padding (top,buttom,left,right) -far from border
+- 20px 10px 20px 10px
+
+CSS Background (color,imgae,..)
+- background-color=""
+- background-image=""
+- background-repeat; no reapeat; (not multiple small pics)
+
+CSS Height Width
+- height နဲ့ width ကိုချိန်တာရှားတယ်
+- width ကိုချိန်တာများတယ်
+- % = responsive (size ရဲ့ percantage အပေါ်မူတည်ပြီးပြောင်း)
+
+CSS Text (Color,Align,Direction,Transformation)
+CSS Font (basically 5)
+- font-family:__,__,__; (1,2,3 check if 1 available on other web, if not move 2, then 3) eg.("Times New Roman",Verdana,serif)
+- serif (with stroke) eg.Time New Romen
+- sans-serif (without stroke) eg.Arial
+- ...etc.
+
+Div (Container - အကန့်များခွဲခြင်း)
+
+CSS Images
+- img=src("../--.jpg")

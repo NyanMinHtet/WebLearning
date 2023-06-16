@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Div and Span Tags</title>
+	<style type="text/css">
+		body{
+			background-color: lightblue;
+		}
+		#main{
+			width: 75%;
+			height: 700px;
+			padding: 20px;
+			margin-left: 10%;
+			background-color: white;
+		}
+		#header, #footer{
+			width: 100%;
+			height: 100px;
+			padding: 10px;
+			background-color: yellowgreen;
+		}
+		#header{
+			border-radius: 15px 15px 0px 0px;
+		}
+		#footer{
+			border-radius: 0px 0px 15px 15px;
+		}
+		.d_img{
+			width: 80%;
+			float: right;
+			margin-right: 9%;
+		}
+		img{
+			width: 100%;
+			border-radius: 50%;
+		}
+		img:hover{
+			opacity: 0.6;
+			border-radius: 20px;
+			border:4px solid green;
+		}
+	</style>
+</head>
+<body>
+	<div id="header"></div>
+	<div id="main">
+		<div class="d_img">
+			<img src="images/l2.png">
+		</div>
+	</div>
+	<div id="footer"></div>
+</body>
+</html>
