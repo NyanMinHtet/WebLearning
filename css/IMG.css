@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Noto+Sans+JP:wght@300;400&family=Roboto+Condensed:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#header{
+    width: 80%;
+    height: 120px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo{
+    width: 10%;
+    float: left; 
+}
+#logo img{
+    width: 100%;
+} 
+
+#title{
+    font-size: 35px;
+    width: 70%;
+    float: left;
+    position: relative;
+    left: 70px;
+    padding-top: 50px;
+    text-align: center;
+    color: tomato;
+}
+
+#sign{
+    width: 13%;
+    padding: 10px;
+    float: left;
+    margin-left: 60px;
+}
+#ls{
+    padding-left: 50px;
+}
+#ls li{
+    list-style-type: none;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-right: 50px;
+    background-color: #d2691e;
+    border-radius: 10px;
+}
+
+#ls li:hover{
+    background-color: #ff1493;
+}
+
+#ls li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#nav{
+    width: 80%;
+    min-height: 70px;
+    padding-top: 2px;
+    background-color: #d2691e;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav ul{
+    margin-left: 50px;
+}
+
+#nav li:hover{
+    background-color: #ff1493;
+	border-radius: 10px;
+}
+
+#nav li{
+    width: 100px;
+    margin-top: 10px;
+
+    padding: 10px;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+}
+
+#nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#tit2{
+    font-size: 20px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: tomato;
+}
+#table caption{
+    align-items:center; 
+    margin-top:20px; 
+    color: tomato;
+}
+#table{
+    width: 70%;
+    margin-left: auto;
+    margin-Right: auto;
+    height: 220px;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+
+#table caption{
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+}
+#table th{
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid orange;
+}
+#table td{
+    border: 1px solid orange;
+}
+.r1{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.pc1{
+    background-color: rgb(245, 198, 242);
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.pc1:hover{
+    background-color: deeppink;
+}
+.pc2{
+    background-color: rgb(198, 203, 245);
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.pc2:hover{
+    background-color: blue;
+}
+.pc3{
+    background-color: rgb(203, 245, 198);
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.pc3:hover{
+    background-color: darkgreen;
+}
+#text{
+    margin-left: auto;
+	margin-Right: auto;
+	width: 75%;
+	padding-top: 20px;
+    text-align: justify;
+}
+#text i{
+    color: darkgray;
+}
+#text p{
+    font-weight: bold;
+}
+
+#footer{
+    width: 80%;
+    height: 130px;
+    padding: 10px;
+    margin-left: auto;
+    margin-Right: auto;
+    border-radius: 0px 0px 15px 15px;
+    background-color: #d2691e;
+}
+#contact{
+    text-align: center;
+    color: white;
+    width: 25%;
+    float: left;
+    padding-left: 120px;
+}
+#partnerships{
+    align-items: justify;
+    color: white;
+    width: 20%;
+    text-align: center;
+    padding-left: 70px;
+    float: left;
+}
+#socialmedia{
+    color: white;
+    width: 20%;
+    float: right;
+    text-align: center;
+    padding-right: 120px;
+}
+#contact img{
+    width: 5%;
+}
+#socialmedia img{
+    width: 15%;
+}

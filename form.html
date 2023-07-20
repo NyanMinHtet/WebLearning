@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <style>
+        body{
+            background-color: cadetblue;
+            }
+        .row{
+            width: 40%;
+            margin-left: auto;
+            margin-right: auto;
+    
+        }
+        .col1{
+            width: 30%;
+            padding: 3px;
+            float: left;
+            text-align: right;
+        }
+        .col2{
+            width: 65%;
+            padding: 3px;
+            float: left;
+        }
+
+        @media screen and(max-width: 480px){
+            .row{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>Form Data</h2>
+    <form action="">
+        <!-- for one data set -->
+        <div class="row">
+            <div class="col1">
+                <label for="txtName">Name : </label>   
+            </div>
+            <div class="col2">
+                <input type="text" name="txtName">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col1">
+               Age :      
+            </div>
+            <div class="col2">
+                <input type="number" name="txtAge">
+            </div>
+        </div>
+        
+    </form>
+</body>
+</html>
