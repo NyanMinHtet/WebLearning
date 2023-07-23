@@ -1,4 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Noto+Sans+JP:wght@300;400&family=Roboto+Condensed:wght@300&display=swap');
 *{
     padding: 0;
     margin: 0;
 }
+body{
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.cname{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+    color: #d2691e;
+}
+.navbar{
+    margin-top: 10px;
+    background-color: #d2691e;
+}
+.navbar *{
+    color: #fff;
+    font-size: 20px;
+}
+               

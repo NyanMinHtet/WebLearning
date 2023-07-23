@@ -14,14 +14,15 @@
     <link rel="stylesheet" href="/css/bstyle.css">
 </head>
 <body>
-    <!-- heading -->
+    
     <div class="container">
+        <!-- heading -->
         <div class="row">
             <div class="col-sm-2">
                 <img src="/images/img.jpg" width="100%" alt="">
             </div>
             <div class="col-sm-8">
-                <p>IMG (Informative Marketing Group)</p>
+                <p class="cname">IMG (Informative Marketing Group)</p>
             </div>
             <div class="col-sm-2">
                 <ul id="ls">
@@ -29,8 +30,95 @@
                     <li><a href="#">Sign Up</a></li>
                 </ul>
             </div>
-        </div>        
+        </div>
+        <!-- end of heading -->
+         <!-- nav -->
+         <div class="row">
+            <nav class="navbar">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <a class="navbar-brand" href="#">IMG Academy</a>
+                  </div>
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Product <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Categories</a></li>
+                            <li><a href="#">Product Details</a></li>
+                            <li><a href="#">Compare Products</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Cart<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Order Summery</a></li>
+                            <li><a href="#">Shipping Methods</a></li>
+                            <li><a href="#">Payment Methods</a></li>
+                            <li><a href="#">Shipping</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Account<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Profile</a></li>
+                            <li><a href="#">Payment Methods</a></li>
+                            <li><a href="#">Password</a></li>
+                            <li><a href="#">Saved Addresses</a></li>
+                            <li><a href="#">Order History</a></li>
+                            <li><a href="#">Gift Cards</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Support <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Category 1</a></li>
+                            <li><a href="#">Category 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Explore <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Community</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About Us</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                  </ul>
+                </div>
+            </nav>
+         </div>
+         <!-- end of nav -->
+        <!-- table row-->
+        <div class="row table-responsive">
+            <table class="table table-condensed table-hover table-bordered">
+                <thead>
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mary</td>
+                        <td>Moe</td>
+                        <td>mary@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
-    <!-- end of heading -->
+    
 </body>
 </html>
